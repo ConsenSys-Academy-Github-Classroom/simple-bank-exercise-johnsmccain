@@ -18,6 +18,7 @@ contract("SimpleBank", function (accounts) {
 
   beforeEach(async () => {
     instance = await SimpleBank.new();
+
   });
 
 //   it("ready to be solved!", async() => {
